@@ -1,0 +1,53 @@
+{
+  "roomTypes": [
+      {
+          "id": 1,
+          "type": "A",
+          "price": 100
+      },
+      {
+          "id": 2,
+          "type": "B",
+          "price": 80
+      },
+      {
+          "id": 3,
+          "type": "C",
+          "price": 50
+      }
+  ],
+  "roomAvailability": [
+      {
+          "id": 1,
+          "type": "A",
+          "available": 2
+      },
+      {
+          "id": 2,
+          "type": "B",
+          "available": 3
+      },
+      {
+          "id": 3,
+          "type": "C",
+          "available": 5
+      }
+  ],
+  "bookings": [
+      {
+          "id": 1,
+          "type": "A",
+          "timestamp": "2020-07-01T12:00:00"
+      },
+      {
+          "id": 2,
+          "type": "B",
+          "timestamp": "2020-07-02T12:00:00"
+      },
+      {
+          "id": 3,
+          "type": "C",
+          "timestamp": "2020-07-03T12:00:00"
+      }
+  ]
+}
